@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Leek-hints",
+  "description": "Hints for leekwars",
+  "version": "0.0.0",
+  "icons": {
+
+    },
+
+  "content_scripts": [
+    {
+      "matches": ["http://leekwars.com/garden"],
+      "js": ["jquery-2.1.1.min.js", "main.js"]
+    }
+  ]
+}
